@@ -53,30 +53,34 @@ body {
   line-height: 25px;
   margin-top: 10px;
 }
-.Homepage .sect1 div {
-  margin-top: 20px;
+.Homepage .sect1 .lihome {
+  width: 300px;
+  margin-right: 0px;
+  height: 50px;
 }
-.Homepage .sect1 div a {
+.Homepage .sect1 .lihome a {
   margin: 30px 15px 30px 0;
   color: #146C94;
-  font-size: 35px;
+  font-size: 30px;
   transition: 0.5s ease;
   border-radius: 20%;
 }
-.Homepage .sect1 div a:hover {
+.Homepage .sect1 .lihome a:hover {
   color: #146C94;
   box-shadow: 0 0 30px rgba(64, 43, 250, 0.6509803922);
 }
 .Homepage .sect1 .download {
-  margin-top: -230px;
-  height: 5px;
+  height: 20px;
   animation: floatIcon 0.2s ease-in-out infinite;
   animation-delay: 1s;
+  width: 200px;
+  margin-right: 0px;
 }
 .Homepage .sect1 .download a {
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
+  color: #146C94;
   padding: 5px;
   border-radius: 20px;
 }
@@ -598,9 +602,9 @@ body {
     padding-top: 40px;
   }
   .Homepage .sect1 {
-    margin-top: 100px;
+    margin-left: -200PX;
     text-align: center;
-    width: 600px;
+    width: auto;
     animation: slideRight 2s ease forwards;
     animation-delay: 0.1s;
   }
@@ -620,33 +624,35 @@ body {
   .Homepage .sect1 p {
     font-size: 15px;
     line-height: 25px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin: auto;
     width: 500px;
   }
-  .Homepage .sect1 div {
-    margin-top: 20px;
-    margin-left: -200px;
+  .Homepage .sect1 .lihome {
+    margin: auto;
   }
-  .Homepage .sect1 div a {
+  .Homepage .sect1 .lihome a {
     margin: 30px 15px 30px 0;
     color: #146C94;
-    font-size: 35px;
+    font-size: 30px;
     transition: 0.5s ease;
     border-radius: 20%;
   }
-  .Homepage .sect1 div a:hover {
+  .Homepage .sect1 .lihome a:hover {
     color: #146C94;
     box-shadow: 0 0 30px rgba(64, 43, 250, 0.6509803922);
   }
   .Homepage .sect1 .download {
-    height: 50px;
+    margin-top: 5px;
+    height: 30px;
     animation: floatIcon 0.2s ease-in-out infinite;
     animation-delay: 1s;
-    z-index: 1;
+    margin: auto;
+    width: 200px;
   }
   .Homepage .sect1 .download a {
     text-decoration: none;
+    position: relative;
+    color: #146C94;
     font-size: 15px;
     font-weight: 500;
     padding: 5px;
@@ -745,8 +751,8 @@ body {
 @media (max-width: 640px) {
   .Homepage {
     display: block;
-    margin: 100px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 40px;
   }
   .Homepage .sect1 {
@@ -757,10 +763,10 @@ body {
     animation-delay: 0.1s;
   }
   .Homepage .sect1 h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .Homepage .sect1 h3 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .Homepage .sect1 h4 {
     font-size: 20px;
@@ -770,24 +776,24 @@ body {
     color: #146C94;
   }
   .Homepage .sect1 p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 25px;
     margin-top: 10px;
-    margin-left: 10px;
     width: auto;
   }
-  .Homepage .sect1 div {
+  .Homepage .sect1 .lihome {
     margin-top: 20px;
-    margin-left: -220px;
+    width: auto;
+    text-align: center;
   }
-  .Homepage .sect1 div a {
+  .Homepage .sect1 .lihome a {
     margin: 30px 15px 30px 0;
     color: #146C94;
     font-size: 35px;
     transition: 0.5s ease;
     border-radius: 20%;
   }
-  .Homepage .sect1 div a:hover {
+  .Homepage .sect1 .lihome a:hover {
     color: #146C94;
     box-shadow: 0 0 30px rgba(64, 43, 250, 0.6509803922);
   }
@@ -801,6 +807,7 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
+    color: #146C94;
     padding: 5px;
     border-radius: 20px;
   }
@@ -808,22 +815,29 @@ body {
     background-color: #146C94;
     color: #ffffff;
   }
-  .Homepage div {
-    margin-top: 200px;
+  .Homepage .home-image {
+    margin-top: 50px;
     height: 300px;
+    display: flex;
     position: relative;
+    justify-content: center;
+    width: auto;
   }
-  .Homepage div .profile {
-    max-height: 550px;
-    position: absolute;
-    margin-top: 60px;
+  .Homepage .home-image .profile {
+    height: 300px;
     background: transparent;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-left: 50px;
+    margin-left: -100px;
     z-index: 1;
     animation: zoomIn 2s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 0s, 2s;
+  }
+  .atom {
+    height: 210px;
+    padding-left: 100px;
+    position: relative;
+    background: transparent;
+    animation: slideRight 2s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s 3s;
   }
   .image {
     padding-top: 150px;
@@ -894,6 +908,25 @@ body {
   .button {
     padding-bottom: 50px;
   }
+  .modal-dialog {
+    width: auto !important;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 360px) {
+  .modal-dialog {
+    width: 150px !important;
+    display: flex;
+    justify-content: center !important;
+    margin-left: 210px !important;
+  }
+  .card-img-top {
+    margin: 1px !important;
+  }
+  .card-body {
+    margin: 1px !important;
+  }
 }
 @media (max-width: 320px) {
   .Homepage {
@@ -930,18 +963,22 @@ body {
     margin-left: -40px;
     width: 280px;
   }
-  .Homepage .sect1 div {
+  .Homepage .sect1 .lihome {
     margin-top: 20px;
-    margin-left: -200px;
+    margin: auto;
   }
-  .Homepage .sect1 div a {
+  .Homepage .sect1 .lihome a {
     margin: 30px 15px 30px 0;
     color: #146C94;
-    font-size: 35px;
+    font-size: 18px !important;
     transition: 0.5s ease;
     border-radius: 20%;
+    padding-top: 10px;
   }
-  .Homepage .sect1 div a:hover {
+  .Homepage .sect1 .lihome a i {
+    font-size: 20px !important;
+  }
+  .Homepage .sect1 .lihome a:hover {
     color: #146C94;
     box-shadow: 0 0 30px rgba(64, 43, 250, 0.6509803922);
   }
@@ -962,27 +999,25 @@ body {
     background-color: #146C94;
     color: #ffffff;
   }
-  .Homepage div {
+  .Homepage .home-image {
     margin-top: 50px;
     height: 300px;
     position: relative;
   }
-  .Homepage div .profile {
+  .Homepage .home-image .profile {
     max-height: 300px !important;
     position: absolute;
     margin-top: 60px;
     background: transparent;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-left: -50px;
+    margin-left: -170px !important;
     z-index: 1;
     animation: zoomIn 2s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 0s, 2s;
   }
   .atom {
     height: 200px;
-    margin-left: -50px;
-    margin-top: -350px;
+    margin-left: -100px;
+    margin-top: -320px;
     position: relative;
     background: transparent;
     animation: slideRight 2s ease forwards, floatImage 4s ease-in-out infinite;
@@ -1031,10 +1066,9 @@ body {
     display: block !important;
   }
   .project div {
-    padding: 20px;
+    padding: 10px;
   }
   .project div .card {
-    padding: 10px;
     width: auto !important;
     margin: auto;
     height: auto !important;

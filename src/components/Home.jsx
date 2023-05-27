@@ -28,7 +28,7 @@ const Home = () => {
           <p>
             “I have a motto on my bedroom wall: ‘Obstacles are what you see when you take your eye off the goal.‘ Giving up is not my style. I just want to do something that's worthwhile.” — Chris Burke
           </p>
-          <div>
+          <div className='lihome'>
             <a href=""><i class='bx bxl-facebook-circle'></i></a>
             <a href="https://github.com/KUYSarden"><i class='bx bxl-github' ></i></a>
             <a href=""><i class='bx bxl-gmail' ></i></a>
@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           
         </div>
-        <div>
+        <div className='home-image'>
           <img className='
           profile' src={profile1} alt="" srcset="" />
         </div>

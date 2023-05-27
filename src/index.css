@@ -11,9 +11,9 @@
 
 body {
   background-color: #F6F1F1 !important;
-  min-height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+  min-height: 100vh !important;
+  width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 .navbar-brand {
@@ -193,12 +193,17 @@ body {
   padding: 10px;
   color: #0b415a;
 }
+.about .ab div h6 {
+  margin-left: 20px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
 .about .ab div p {
   text-align: justify;
   margin: 20px;
   line-height: 28px;
 }
-.about .ab div li, .about .ab div h6 {
+.about .ab div li {
   margin-left: 20px;
 }
 
@@ -315,6 +320,7 @@ body {
   outline-color: #0b415a;
   padding: 5px;
   font-size: 15px;
+  font-weight: 600;
   border-width: 1px;
   border-radius: 15px;
   width: 70px;

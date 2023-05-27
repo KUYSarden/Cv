@@ -1071,6 +1071,7 @@ $gray: #9b9b9b;
 
         .Homepage {
             display: block;
+            height: 700px;
             margin-left: 20px;
             margin-right: 20px;
             padding-top: 40px;
@@ -1169,7 +1170,7 @@ $gray: #9b9b9b;
                .profile {
                 height: 300px;                
                 background: transparent;   
-                margin-left: -100px;      
+                margin-left: -200px;      
                 z-index: 1; 
                 animation: zoomIn 2s ease forwards, floatImage 4s ease-in-out infinite;
                 animation-delay: 0s, 2s;
@@ -1181,7 +1182,7 @@ $gray: #9b9b9b;
         .atom {
             height: 210px;
            
-           padding-left: 100px;
+           padding-left: 10px;
             position: relative;
             background: transparent;
             animation:slideRight 2s ease forwards, floatImage 4s ease-in-out infinite; 
@@ -1324,6 +1325,10 @@ $gray: #9b9b9b;
     
    
  @media  (max-width: 360px) {
+
+    .Homepage {
+        height: 700px !important;
+    }
 
     .modal-dialog {
 

@@ -11,6 +11,9 @@
 
 body {
   background-color: #F6F1F1 !important;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .navbar-brand {
@@ -71,22 +74,21 @@ body {
 }
 .Homepage .sect1 .download {
   height: 20px;
-  animation: floatIcon 0.2s ease-in-out infinite;
-  animation-delay: 1s;
   width: 200px;
   margin-right: 0px;
 }
 .Homepage .sect1 .download a {
   text-decoration: none;
+  background-color: #146C94;
   font-size: 15px;
   font-weight: 500;
-  color: #146C94;
+  color: #ffffff;
   padding: 5px;
   border-radius: 20px;
 }
 .Homepage .sect1 .download a:hover {
-  background-color: #146C94;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #146C94;
 }
 .Homepage div {
   height: 300px;
@@ -307,14 +309,20 @@ body {
   justify-content: center;
   margin-top: 50px;
 }
-.button button {
-  background-color: transparent;
-  color: #0b415a;
+.button input {
+  background-color: #0b415a;
+  color: #ffffff;
   outline-color: #0b415a;
-  padding: 10px;
-  outline-style: solid;
-  outline-width: 1px;
-  border-radius: 5px;
+  padding: 2px;
+  font-size: 12px;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 50px;
+}
+.button input:hover {
+  background-color: #fff;
+  color: #0b415a;
+  outline-color: #000000;
 }
 
 .input {
@@ -517,8 +525,13 @@ body {
     line-height: 25px;
     width: 450px;
   }
+  .about {
+    padding: 20px;
+  }
   .ab {
     max-width: auto !important;
+    height: auto;
+    margin: auto !important;
   }
   .project div .card {
     width: 18rem !important;
@@ -593,6 +606,10 @@ body {
     justify-content: center !important;
     margin-left: 310px !important;
   }
+  .ab {
+    height: auto;
+    width: auto !important;
+  }
 }
 @media (max-width: 800px) {
   .Homepage {
@@ -644,23 +661,16 @@ body {
   .Homepage .sect1 .download {
     margin-top: 5px;
     height: 30px;
-    animation: floatIcon 0.2s ease-in-out infinite;
-    animation-delay: 1s;
     margin: auto;
     width: 200px;
   }
   .Homepage .sect1 .download a {
     text-decoration: none;
     position: relative;
-    color: #146C94;
     font-size: 15px;
     font-weight: 500;
     padding: 5px;
     border-radius: 20px;
-  }
-  .Homepage .sect1 .download a:hover {
-    background-color: #146C94;
-    color: #ffffff;
   }
   .Homepage div {
     margin-top: 50px;
@@ -800,21 +810,14 @@ body {
   }
   .Homepage .sect1 .download {
     height: 50px;
-    animation: floatIcon 0.2s ease-in-out infinite;
-    animation-delay: 1s;
     z-index: 1;
   }
   .Homepage .sect1 .download a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
-    color: #146C94;
     padding: 5px;
     border-radius: 20px;
-  }
-  .Homepage .sect1 .download a:hover {
-    background-color: #146C94;
-    color: #ffffff;
   }
   .Homepage .home-image {
     margin-top: 50px;
@@ -886,11 +889,13 @@ body {
   .project div .card {
     padding: 10px;
     width: auto !important;
-    margin: auto;
     height: auto !important;
   }
   .card-body {
-    padding: 2px !important;
+    padding: 0px !important;
+  }
+  .ab {
+    width: auto !important;
   }
   .card-links {
     padding: 2px !important;
@@ -925,6 +930,9 @@ body {
     justify-content: center !important;
     margin-left: 210px !important;
   }
+  .ab {
+    width: 280px !important;
+  }
   .card-img-top {
     margin: 1px !important;
   }
@@ -936,6 +944,7 @@ body {
   .Homepage {
     display: block;
     margin: 100px;
+    height: 1000px !important;
     margin-top: 50px;
     padding-top: 40px;
   }
@@ -988,8 +997,6 @@ body {
   }
   .Homepage .sect1 .download {
     height: 50px;
-    animation: floatIcon 0.2s ease-in-out infinite;
-    animation-delay: 1s;
     z-index: 1;
   }
   .Homepage .sect1 .download a {
@@ -998,10 +1005,6 @@ body {
     font-weight: 500;
     padding: 5px;
     border-radius: 20px;
-  }
-  .Homepage .sect1 .download a:hover {
-    background-color: #146C94;
-    color: #ffffff;
   }
   .Homepage .home-image {
     margin-top: 50px;
@@ -1046,7 +1049,7 @@ body {
     height: auto;
   }
   .about .ab {
-    max-width: 400px;
+    max-width: 260px !important;
     padding: 5px;
     border-radius: 20px;
     border-color: #146C94;

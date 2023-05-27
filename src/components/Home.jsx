@@ -3,6 +3,9 @@ import profile1 from '../assets/profile1.png'
 import atom from '../assets/atom.png'
 import Typed from "react-typed"
 import c1 from '../assets/c1.png'
+import CV from '../assets/CV.pdf'
+
+
 
 const Home = () => {
   return (
@@ -37,7 +40,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/arden-flores-a29681278/"><i class='bx bxl-linkedin'></i></a>
           </div>
           <div className='download'>
-            <a href={c1} download>Download CV</a>
+            <a href={CV} download>Download CV</a>
           </div>
           
         </div>

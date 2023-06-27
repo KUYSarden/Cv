@@ -536,8 +536,8 @@ body {
   }
   .ab {
     max-width: auto !important;
-    height: auto;
-    margin: auto !important;
+    height: 550px;
+    margin: 20px;
   }
   .project div .card {
     width: 18rem !important;
@@ -613,8 +613,9 @@ body {
     margin-left: 310px !important;
   }
   .ab {
-    height: auto;
-    width: auto !important;
+    height: 700px;
+    margin: 10px !important;
+    padding: 2px !important;
   }
 }
 @media (max-width: 800px) {
@@ -719,11 +720,8 @@ body {
   }
   .about .ab {
     max-width: 400px;
-    padding: 10px;
-    margin-left: 200px;
-    border-radius: 20px;
-    border-color: #146C94;
-    border-style: solid;
+    height: 500px;
+    margin: auto !important;
   }
   .about .ab div h1 {
     font-size: 35px;
@@ -738,6 +736,9 @@ body {
   }
   .about .ab div li, .about .ab div h6 {
     margin-left: 20px;
+  }
+  .project-body {
+    padding-top: 100px;
   }
   .project {
     display: block !important;
@@ -937,13 +938,19 @@ body {
     margin-left: 210px !important;
   }
   .ab {
-    width: 280px !important;
+    width: 310px !important;
+    font-size: 13px;
+    line-height: 20px;
   }
   .card-img-top {
     margin: 1px !important;
   }
   .card-body {
     margin: 1px !important;
+  }
+  .cards {
+    padding: 0px !important;
+    margin: 15px !important;
   }
 }
 @media (max-width: 320px) {

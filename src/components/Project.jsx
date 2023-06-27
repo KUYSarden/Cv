@@ -47,7 +47,7 @@ const Project = () => {
     <h3>PROJECTS</h3>
    </div>
    <div className='project'>
-   <div>
+   <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img onClick={handleShowp1} variant="top" src={a1} />
       <div class="middle">
@@ -70,7 +70,7 @@ const Project = () => {
    </div>
 
 
-   <div>
+   <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img onClick={handleShow} variant="top" src={b1} />
       <div class="middle">
@@ -92,7 +92,7 @@ const Project = () => {
 
    </div>
 
-   <div>
+   <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img  variant="top" src={c8} />
       <div class="middle">
@@ -104,7 +104,7 @@ const Project = () => {
          <li>This is the last project I made in the bootcamp.</li>
          <li>We only had 2 person in ours team,</li>
          <li>I mainly work in the backend while my partner work in the frontend and sometimes I help in the frontend.</li>
-         <li>We use laravel project, php for databae, and javascript html css, react botstrap.</li>
+         <li>We use laravel project, php for database, and javascript, html, css, react botstrap.</li>
         </Card.Text>
        <a style={{color: '#0b415a', textDecoration: 'none'}} href="https://github.com/OwenXV/Capstone-_FE.git">Live Demo</a>
       

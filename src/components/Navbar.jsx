@@ -17,7 +17,7 @@ const Navbars = () => {
            
           </Nav>
           <Nav>
-          <Nav.Link href="#features">Home</Nav.Link>
+          <Nav.Link href="#Home">Home</Nav.Link>
           <Nav.Link href="#Project">Projects</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>

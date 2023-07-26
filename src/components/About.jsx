@@ -1,16 +1,20 @@
 import React from 'react'
 import pr from "../assets/pr.png"
+import RubberBand from 'react-reveal/RubberBand';
+import Fade from 'react-reveal/Fade';
 
 
 const About = () => {
   return (
    <>
 
-<div className='image' id='About'>
+<div className='image ' id='About'>
+<RubberBand>
    <h1>All you want to Know</h1>
+   </RubberBand>
     </div>
     <div className='about'>
-       
+    <Fade left duration={2000}>
         <div className='ab'>
             <div>
             <h1>About me</h1>
@@ -21,7 +25,10 @@ const About = () => {
             </p>
             </div>
         </div>
+        </Fade>
 
+
+ <Fade left duration={1500}>
         <div className='ab'>
             <div>
                 <h1>Academics</h1>
@@ -32,8 +39,9 @@ const About = () => {
                 </p>
             </div>
         </div>
+        </Fade>
 
-
+        <Fade left duration={1000}>
         <div className='ab'>
             <div>
                 <h1>Qualification and Skills</h1>
@@ -53,8 +61,9 @@ const About = () => {
                 <li>Time Management</li>
                
                 
-            </div>
+            </div>         
         </div>
+        </Fade>
     </div>
    
    </>

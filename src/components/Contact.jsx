@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Wobble from 'react-reveal/Wobble';
 
 
 const Result =() => {
@@ -36,7 +37,9 @@ const Contact = () => {
 
     <div>
       <div>
+      <Wobble>
         <h1>Get in touch</h1>
+        </Wobble>
       </div>
       <div className='hcontact'>
         <h4>

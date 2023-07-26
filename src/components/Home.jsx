@@ -7,9 +7,10 @@ import CV from '../assets/CV.pdf'
 
 
 
+
 const Home = () => {
   return (
-    <div className='Homepage'>
+    <div className='Homepage ' id='Home'>
         <div className='sect1'>
           <h1>Hello, I am</h1>
           <h3>

@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
+import Fade from 'react-reveal/Fade';
+import Swing from 'react-reveal/Swing';
 import a1 from '../assets/a1.png'
 import a2 from '../assets/a2.png'
 import a3 from '../assets/a3.png'
@@ -44,9 +46,12 @@ const Project = () => {
    <>
    <div className='project-body' id='Project'>
    <div>
+   <Swing>
     <h3>PROJECTS</h3>
+    </Swing>
    </div>
    <div className='project'>
+   <Fade right duration={1000}>
    <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img onClick={handleShowp1} variant="top" src={a1} />
@@ -68,8 +73,9 @@ const Project = () => {
     </Card>
     
    </div>
+   </Fade>
 
-
+   <Fade right duration={1500}>
    <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img onClick={handleShow} variant="top" src={b1} />
@@ -91,7 +97,8 @@ const Project = () => {
     </Card>
 
    </div>
-
+   </Fade>
+   <Fade right duration={2000}>
    <div className='cards'>
    <Card style={{ width: '25rem' }}>
       <Card.Img  variant="top" src={c8} />
@@ -111,6 +118,7 @@ const Project = () => {
       </Card.Body>
     </Card>
    </div>
+   </Fade>
    </div>
    </div>
 

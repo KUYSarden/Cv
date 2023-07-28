@@ -39,7 +39,7 @@ My journey as a web developer started several months ago when I first dabbled in
             </div>
             <div>
                 <p>
-                    I finished my high school at DSSF, Davao del Sur School of fisheries, and after that in the span of 2 years  i studied theology. And I also Studied BSED Bachelor of Science in Education in 3 years, I am always seeking new oppurtunity to make me stand for myself so the time that I saw the adds of kodego bootcamp I prayed to God that it is the right path of career for me, and thanks to God that I graduated last May 17, 2023 and receive the certificate of completion given by Mam Queza and Sir Von and the Kodego.
+                    I finished my high school at DSSF, Davao del Sur School of fisheries, and after that in the span of 2 years  i studied theology. And I also Studied BSED Bachelor of Secondary Education in 3 years, I am always seeking new oppurtunity to make me stand for myself so the time that I saw the adds of kodego bootcamp I prayed to God that it is the right path of career for me, and thanks to God that I graduated last May 17, 2023 and receive the certificate of completion given by Mam Queza and Sir Von and the Kodego.
                 </p>
             </div>
         </div>

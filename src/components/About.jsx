@@ -21,7 +21,11 @@ const About = () => {
             </div>
             <div>
             <p>
-                Hello, my name is Arden you can call me denden for short, I became a full stack web developer because I always and enjoy interesting things in life, becoming a full pledged web developer makes me strive even further about the IT Industry. My friends and collegues told me that i was a curious and dependable person and i think that is true beacause when i do something i always want to see what is the end of it.
+            Hello there!
+
+Hey, I'm Arden, and I'm thrilled to introduce myself as a passionate web developer. With a strong foundation in programming and an eye for design, I love creating beautiful and functional websites that leave a lasting impact on users.
+
+My journey as a web developer started several months ago when I first dabbled in HTML and CSS . Since then, my curiosity and fascination for web development have only grown stronger. I expanded my skill set to include JavaScript, which enabled me to add interactivity and dynamic elements to my projects, making them more engaging and user-friendly.
             </p>
             </div>
         </div>

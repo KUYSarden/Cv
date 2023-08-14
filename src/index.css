@@ -7,26 +7,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  background-color: #F6F1F1 !important;
   min-height: 100vh !important;
   width: 100vw !important;
   overflow-x: hidden !important;
 }
 
-
-
-
-.navbar {
-  position: fixed !important;
-  width: 100%;
-  margin-top: -80px !important;
-  z-index: 3;
-  background-color: rgba(59, 60, 61, 0.3);
-   
-
+body {
+  background-color: #F6F1F1 !important;
 }
 
 .navbar-brand {
@@ -35,12 +22,6 @@ body {
 
 .nav-link {
   font-size: 18px !important;
-  color: #000000 !important;
-}
-
-.nav-link:hover {
-  color: #000000;
-  font-weight: 500;
 }
 
 .Homepage {
@@ -49,7 +30,6 @@ body {
   margin-top: 80px;
   justify-content: space-between;
   padding-top: 40px;
-  padding-bottom: 50px;
 }
 .Homepage .sect1 {
   margin-top: 100px;
@@ -105,16 +85,10 @@ body {
   color: #ffffff;
   padding: 5px;
   border-radius: 20px;
-  
 }
 .Homepage .sect1 .download a:hover {
   background-color: #ffffff;
   color: #146C94;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  font-size: 20px;
-  transition: .1s;
 }
 .Homepage div {
   height: 300px;
@@ -525,13 +499,6 @@ body {
 }
 
 @media (max-width: 1290px) {
-
-  .navbar {
-    margin-top: -60px !important;
-  }
-
-
-
   .Homepage {
     display: flex;
     margin: 170px;
@@ -654,8 +621,7 @@ body {
 @media (max-width: 800px) {
   .Homepage {
     display: block;
-    margin: 100px;
-    margin-top: 50px;
+    overflow: hidden;
     padding-top: 40px;
   }
   .Homepage .sect1 {
@@ -802,9 +768,9 @@ body {
   .Homepage {
     display: block;
     height: 700px;
-    margin-left: 20px;
-    margin-right: 20px;
+    overflow: hidden;
     padding-top: 40px;
+    margin: 20px;
   }
   .Homepage .sect1 {
     text-align: center;
@@ -877,7 +843,7 @@ body {
   }
   .atom {
     height: 210px;
-    padding-left: 10px;
+    padding-left: 100px;
     position: relative;
     background: transparent;
     animation: slideRight 2s ease forwards, floatImage 4s ease-in-out infinite;
@@ -970,10 +936,12 @@ body {
     justify-content: center !important;
     margin-left: 210px !important;
   }
-  .ab {
+  .about .ab {
+    height: auto;
     width: 310px !important;
     font-size: 13px;
     line-height: 20px;
+    margin: 10px !important;
   }
   .card-img-top {
     margin: 1px !important;
@@ -989,18 +957,15 @@ body {
 @media (max-width: 320px) {
   .Homepage {
     display: block;
-    margin: 100px;
+    width: auto;
     height: 1000px !important;
-    margin-top: 50px;
     padding-top: 40px;
   }
   .Homepage .sect1 {
     margin-top: 50px;
     text-align: center;
-    width: 200px;
     animation: slideRight 2s ease forwards;
     animation-delay: 0.1s;
-    margin-left: -40px;
   }
   .Homepage .sect1 h1 {
     font-size: 20px;
@@ -1019,8 +984,6 @@ body {
     font-size: 12px;
     line-height: 25px;
     margin-top: 10px;
-    margin-left: -40px;
-    width: 280px;
   }
   .Homepage .sect1 .lihome {
     margin-top: 20px;
@@ -1096,7 +1059,7 @@ body {
   }
   .about .ab {
     max-width: 260px !important;
-    padding: 5px;
+    padding: 10px !important;
     border-radius: 20px;
     border-color: #146C94;
     border-style: solid;

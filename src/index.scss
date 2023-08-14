@@ -12,6 +12,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    min-height: 100vh !important;
+    width: 100vw !important;
+    overflow-x: hidden !important;
   }
   
   
@@ -20,9 +23,7 @@
    
    
     background-color:#F6F1F1 !important;
-    min-height: 100vh !important;
-    width: 100vw !important;
-    overflow-x: hidden !important;
+  
   }
 
 
@@ -883,8 +884,8 @@ $gray: #9b9b9b;
 
         .Homepage {
             display: block;
-            margin: 100px;
-            margin-top: 50px;
+           
+            overflow: hidden;
             padding-top: 40px;
         
             .sect1 {
@@ -1104,9 +1105,9 @@ $gray: #9b9b9b;
         .Homepage {
             display: block;
             height: 700px;
-            margin-left: 20px;
-            margin-right: 20px;
+            overflow: hidden;
             padding-top: 40px;
+            margin: 20px;
         
             .sect1 {
                 
@@ -1207,9 +1208,8 @@ $gray: #9b9b9b;
 
 
         .atom {
-            height: 210px;
-           
-           padding-left: 10px;
+            height: 210px;      
+           padding-left: 100px;
             position: relative;
             background: transparent;
             animation:slideRight 2s ease forwards, floatImage 4s ease-in-out infinite; 
@@ -1372,11 +1372,19 @@ $gray: #9b9b9b;
         
      }
 
-     .ab{
-        width: 310px !important;
-        font-size: 13px;
-        line-height: 20px;
+     .about{
+
+        .ab{
+            height: auto;
+            width: 310px !important;
+            font-size: 13px;
+            line-height: 20px;
+           margin: 10px !important;
+         }
+       
      }
+
+     
 
      .card-img-top{
         margin: 1px !important;
@@ -1408,18 +1416,17 @@ $gray: #9b9b9b;
 
         .Homepage {
             display: block;
-            margin: 100px;
-            height: 1000px !important;
-            margin-top: 50px;
+            width: auto;
+            height: 1000px !important;           
             padding-top: 40px;
         
             .sect1 {              
                 margin-top: 50px;
                 text-align: center;
-                width: 200px;
+               
                 animation: slideRight 2s ease forwards;
                 animation-delay: .1s;
-                margin-left: -40px;
+              
         
                 h1 {
                     font-size: 20px;
@@ -1441,8 +1448,7 @@ $gray: #9b9b9b;
                     font-size: 12px;
                     line-height: 25px;
                     margin-top: 10px;
-                    margin-left: -40px;              
-                    width: 280px;
+                   
                 }
         
                 .lihome {
@@ -1558,8 +1564,7 @@ $gray: #9b9b9b;
              .ab {   
                 
                  max-width: 260px !important;
-                 padding: 5px; 
-                
+                 padding: 10px !important;               
                  border-radius: 20px;
                  border-color: #146C94;
                  border-style: solid;

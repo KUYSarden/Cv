@@ -1,4 +1,6 @@
 import React, { useState} from 'react'
+import weather from '../assets/weather.png'
+import todo from '../assets/todo.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
@@ -37,6 +39,11 @@ const Project = () => {
     const [showc1, setShowc1] = useState(false);
     const handleClosec1 = () => setShowc1(false);
     const handleShowc1 = () => setShowc1(true);
+
+    const [more_projects, setMore_Projects] = useState(false);
+    const handleclosemore_projects = () => setMore_Projects(false);
+    const handleshowmore_projects = () => setMore_Projects(true);
+
 
 
 
@@ -121,13 +128,49 @@ const Project = () => {
    </Fade>
    </div>
    </div>
+   
+   <div className='more_projects' onClick={handleshowmore_projects}>
+    more
+   </div>
 
 
 
 
 
 
+<Modal show = {more_projects} onHide={handleclosemore_projects}>
 
+<Carousel>
+  
+
+      <Carousel.Item>
+      <img  className="d-block w-100" 
+src={weather}
+alt='Weather APP'>
+</img>
+
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img  className="d-block w-100" 
+src={todo}
+alt='Weather APP'>
+</img>
+
+      </Carousel.Item>
+      
+     
+    </Carousel>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleclosemore_projects}>
+            Close
+          </Button>
+         
+        </Modal.Footer>
+
+  
+
+</Modal>
 
 
 

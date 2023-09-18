@@ -288,6 +288,18 @@ body {
   margin-left: 0px !important;
 }
 
+.more_projects {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #4d4d53;
+}
+
+.more_projects:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
 .contact {
   padding-top: 100px;
   margin: 200px;

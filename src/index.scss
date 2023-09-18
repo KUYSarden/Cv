@@ -417,6 +417,17 @@
  }
 
 
+ .more_projects {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: #4d4d53;
+ }
+ .more_projects:hover{
+    color: #000000;
+    font-weight: 500;
+ }
+
 
 
 
